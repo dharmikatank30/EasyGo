@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Travel</title>
+    <link rel="stylesheet" href="traincode.css" />
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio&family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <img class="aeroplane" src="last train.png" alt="" />
+    <img class="rightEllipse" src="Ellipse 8.png" alt="" />
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Back</a></li>
+      </ul>
+      <button class="trainTravel">Contact us</button>
+    </nav>
+
+    <div class="form">
+      <h1>Where would you like to go ?</h1>
+      <br />
+      <h2>From</h2>
+      <select class="source" name="Source" id="sources">
+        <option value="Pune JN-Pune">Pune JN-Pune </option>
+        <option value="Mumbai -CSMT">Mumbai -CSMT</option>
+        <option value="Delhi -NDLS">Delhi -NDLS</option>
+      </select>
+      <br />
+      <h2>To</h2>
+      <select class="destination" name="Destination" id="destinations">
+        <option value="Ahemdabad -ADI">Ahemdabad -ADI </option>
+        <option value="Goa -KRMI">Goa  -KRMI</option>
+        <option value="Bengaluru -YPR">Bengaluru -YPR </option>
+      </select>
+      <br />
+      <div class="infoFlex">
+      <div class="Date">
+        <h2>Date</h2>
+        <input
+          type="date"
+          class="date"
+          name="date"
+          id=""
+          placeholder="Select Date"
+        />
+      </div>
+      <div class="NumOfPass">
+        <h2>Number of Passengers</h2>
+        <input class="NumOfPassInput" type="number" name="number" id="" placeholder="1(min)-10(max)" />
+      </div>
+    </div>
+      <br />
+    </div>
+    <button class="ticketConfirm">Submit</button>
+  </body>
+</html>
